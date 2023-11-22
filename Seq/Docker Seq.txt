@@ -1,0 +1,1 @@
+docker run --name FleaMarket_Seq -d -e "TZ=Asia/Shanghai" -e ACCEPT_EULA=Y -v ${pwd}\data:/data -e SEQ_CACHE_SYSTEMRAMTARGET=0 -p 9081:80 -p 5941:5341 datalust/seq
